@@ -480,16 +480,24 @@ In several cases, the most useful lessons came from something failing in a way w
 
 The repository will remain the source for the code and raw benchmark data, while the book will provide the narrative, explanation, analysis, and step-by-step reproduction guide.
 
-## Planned Book Pricing
+## Planned Book Pricing and Availability
 
-The goal is to make the companion book inexpensive enough that price is not a barrier.
+The goal of the companion book is not to maximize the price.
 
-The current plan is:
+The goal is to make the complete benchmark, methodology, mistakes, and lessons learned available to as many people as possible at minimal cost.
 
-- **$0.99 on Amazon Kindle**, if Amazon's pricing rules permit that price
-- **available through Kindle Unlimited** for Kindle Unlimited subscribers if the book is enrolled in the program
+The current target price for the digital book is:
 
-Final pricing and availability will depend on Amazon's publishing requirements at the time the book is released.
+- **$0.99 on Amazon Kindle**, if Amazon's pricing rules permit it
+- similarly low-cost distribution through other platforms where practical
+
+Kindle Unlimited is also being considered.
+
+However, participation in Kindle Unlimited currently requires enrollment in Amazon KDP Select, which requires the digital edition of the book to remain exclusive to Amazon during the enrollment period.
+
+Because the goal of this project is broad availability rather than exclusivity, a final decision about Kindle Unlimited has not yet been made.
+
+The source code and raw benchmark results in this GitHub repository will remain available independently of the book.
 
 ---
 
