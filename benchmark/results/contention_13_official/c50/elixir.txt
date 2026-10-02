@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.276s
+Requests:     4477
+Errors:       0
+Requests/sec: 147.87
+
+Average:      335.393492ms
+p50:          244.050187ms
+p95:          877.070414ms
+p99:          2.334050422s
+Max:          3.737304913s
+========================================

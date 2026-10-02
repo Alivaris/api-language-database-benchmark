@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.247s
+Requests:     12186
+Errors:       0
+Requests/sec: 402.88
+
+Average:      122.445672ms
+p50:          66.118911ms
+p95:          423.204091ms
+p99:          864.017594ms
+Max:          3.61749497s
+========================================

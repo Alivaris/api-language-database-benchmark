@@ -1,0 +1,1063 @@
+
+==========================================================
+13-WAY OFFICIAL CONTENTION
+CONCURRENCY PER LANGUAGE: 1
+TOTAL HTTP CLIENTS: 13
+==========================================================
+
+Restarting all 13 API containers...
+Waiting 15 seconds for applications to initialize...
+Recording PostgreSQL connections before test...
+Starting all 13 benchmark runners...
+
+All runners completed.
+
+---------- RESULTS: C=1 ----------
+
+---------- GO ----------
+Requests:     3346
+Errors:       0
+Requests/sec: 111.52
+Average:      8.822032ms
+p50:          5.521094ms
+p95:          27.167994ms
+p99:          50.445703ms
+Max:          133.130777ms
+
+---------- RUST ----------
+Requests:     2579
+Errors:       0
+Requests/sec: 85.75
+Average:      11.523513ms
+p50:          7.43406ms
+p95:          34.154402ms
+p99:          55.571876ms
+Max:          418.72871ms
+
+---------- NODE ----------
+Requests:     2188
+Errors:       0
+Requests/sec: 72.91
+Average:      13.587947ms
+p50:          9.828052ms
+p95:          35.318115ms
+p99:          66.989643ms
+Max:          489.80291ms
+
+---------- PYTHON ----------
+Requests:     1608
+Errors:       0
+Requests/sec: 53.58
+Average:      18.508012ms
+p50:          14.321613ms
+p95:          44.796944ms
+p99:          74.317576ms
+Max:          432.096561ms
+
+---------- PHP ----------
+Requests:     1167
+Errors:       0
+Requests/sec: 38.86
+Average:      25.609504ms
+p50:          20.293106ms
+p95:          59.674807ms
+p99:          116.394936ms
+Max:          287.973982ms
+
+---------- CPP ----------
+Requests:     1375
+Errors:       0
+Requests/sec: 45.82
+Average:      21.561444ms
+p50:          17.85325ms
+p95:          51.116926ms
+p99:          80.380954ms
+Max:          165.969385ms
+
+---------- JAVA ----------
+Requests:     1284
+Errors:       0
+Requests/sec: 42.75
+Average:      23.281858ms
+p50:          15.695715ms
+p95:          49.472663ms
+p99:          79.54836ms
+Max:          4.351455402s
+
+---------- ELIXIR ----------
+Requests:     1110
+Errors:       0
+Requests/sec: 36.93
+Average:      26.630273ms
+p50:          20.727022ms
+p95:          58.878947ms
+p99:          94.431204ms
+Max:          1.578722712s
+
+---------- RUBY ----------
+Requests:     1714
+Errors:       0
+Requests/sec: 57.10
+Average:      17.354801ms
+p50:          13.615192ms
+p95:          44.257996ms
+p99:          73.855958ms
+Max:          183.816605ms
+
+---------- HASKELL ----------
+Requests:     1694
+Errors:       0
+Requests/sec: 56.45
+Average:      17.567496ms
+p50:          13.805968ms
+p95:          42.568591ms
+p99:          69.367521ms
+Max:          198.156157ms
+
+---------- V ----------
+Requests:     2390
+Errors:       0
+Requests/sec: 79.51
+Average:      12.415461ms
+p50:          8.276794ms
+p95:          36.874055ms
+p99:          63.464792ms
+Max:          205.18304ms
+
+---------- NIM ----------
+Requests:     1645
+Errors:       0
+Requests/sec: 54.74
+Average:      18.134297ms
+p50:          11.214928ms
+p95:          42.905044ms
+p99:          179.903166ms
+Max:          411.558662ms
+
+---------- ZIG ----------
+Requests:     2562
+Errors:       0
+Requests/sec: 85.34
+Average:      11.546107ms
+p50:          7.831308ms
+p95:          33.860218ms
+p99:          54.229165ms
+Max:          162.250653ms
+
+PostgreSQL connections before: 266
+PostgreSQL connections after:  330
+
+
+Cooling down for 15 seconds...
+
+==========================================================
+13-WAY OFFICIAL CONTENTION
+CONCURRENCY PER LANGUAGE: 10
+TOTAL HTTP CLIENTS: 130
+==========================================================
+
+Restarting all 13 API containers...
+Waiting 15 seconds for applications to initialize...
+Recording PostgreSQL connections before test...
+Starting all 13 benchmark runners...
+
+All runners completed.
+
+---------- RESULTS: C=10 ----------
+
+---------- GO ----------
+Requests:     8842
+Errors:       0
+Requests/sec: 293.73
+Average:      33.668917ms
+p50:          21.826874ms
+p95:          104.761947ms
+p99:          191.342892ms
+Max:          652.867464ms
+
+---------- RUST ----------
+Requests:     5679
+Errors:       0
+Requests/sec: 188.81
+Average:      52.646685ms
+p50:          36.400484ms
+p95:          159.70936ms
+p99:          270.440597ms
+Max:          529.850548ms
+
+---------- NODE ----------
+Requests:     3455
+Errors:       0
+Requests/sec: 114.81
+Average:      86.667906ms
+p50:          56.832481ms
+p95:          263.33419ms
+p99:          497.40665ms
+Max:          1.073380031s
+
+---------- PYTHON ----------
+Requests:     3390
+Errors:       0
+Requests/sec: 112.53
+Average:      88.521179ms
+p50:          67.126428ms
+p95:          215.682681ms
+p99:          381.724371ms
+Max:          2.377613679s
+
+---------- PHP ----------
+Requests:     3309
+Errors:       0
+Requests/sec: 109.96
+Average:      90.655937ms
+p50:          71.254276ms
+p95:          224.383569ms
+p99:          349.452934ms
+Max:          1.453748975s
+
+---------- CPP ----------
+Requests:     4302
+Errors:       0
+Requests/sec: 142.29
+Average:      69.648109ms
+p50:          56.755114ms
+p95:          169.808393ms
+p99:          248.053404ms
+Max:          536.190195ms
+
+---------- JAVA ----------
+Requests:     2278
+Errors:       0
+Requests/sec: 75.74
+Average:      131.647306ms
+p50:          79.48104ms
+p95:          262.761817ms
+p99:          441.930201ms
+Max:          7.833685788s
+
+---------- ELIXIR ----------
+Requests:     3158
+Errors:       0
+Requests/sec: 105.11
+Average:      94.064346ms
+p50:          66.569918ms
+p95:          201.592229ms
+p99:          324.765994ms
+Max:          3.764223366s
+
+---------- RUBY ----------
+Requests:     524
+Errors:       0
+Requests/sec: 17.28
+Average:      576.442884ms
+p50:          509.905151ms
+p95:          986.390082ms
+p99:          2.681808551s
+Max:          3.223130994s
+
+---------- HASKELL ----------
+Requests:     6739
+Errors:       0
+Requests/sec: 224.25
+Average:      44.248336ms
+p50:          31.488204ms
+p95:          129.213886ms
+p99:          203.16844ms
+Max:          618.956137ms
+
+---------- V ----------
+Requests:     5284
+Errors:       0
+Requests/sec: 175.47
+Average:      56.752742ms
+p50:          35.412596ms
+p95:          178.465817ms
+p99:          316.801838ms
+Max:          661.206671ms
+
+---------- NIM ----------
+Requests:     6615
+Errors:       0
+Requests/sec: 219.42
+Average:      45.286115ms
+p50:          31.034803ms
+p95:          125.791538ms
+p99:          242.62708ms
+Max:          830.234968ms
+
+---------- ZIG ----------
+Requests:     6946
+Errors:       0
+Requests/sec: 229.73
+Average:      43.23353ms
+p50:          27.060628ms
+p95:          139.799937ms
+p99:          236.580654ms
+Max:          799.385615ms
+
+PostgreSQL connections before: 266
+PostgreSQL connections after:  383
+
+
+Cooling down for 15 seconds...
+
+==========================================================
+13-WAY OFFICIAL CONTENTION
+CONCURRENCY PER LANGUAGE: 50
+TOTAL HTTP CLIENTS: 650
+==========================================================
+
+Restarting all 13 API containers...
+Waiting 15 seconds for applications to initialize...
+Recording PostgreSQL connections before test...
+Starting all 13 benchmark runners...
+
+All runners completed.
+
+---------- RESULTS: C=50 ----------
+
+---------- GO ----------
+Requests:     19816
+Errors:       0
+Requests/sec: 652.83
+Average:      75.228952ms
+p50:          33.923834ms
+p95:          265.608324ms
+p99:          660.268203ms
+Max:          3.53161246s
+
+---------- RUST ----------
+Requests:     12146
+Errors:       0
+Requests/sec: 393.31
+Average:      123.744724ms
+p50:          59.315689ms
+p95:          464.057397ms
+p99:          938.969233ms
+Max:          2.49786516s
+
+---------- NODE ----------
+Requests:     4663
+Errors:       0
+Requests/sec: 151.83
+Average:      325.634075ms
+p50:          187.102966ms
+p95:          1.046367838s
+p99:          1.779225175s
+Max:          9.276853794s
+
+---------- PYTHON ----------
+Requests:     3123
+Errors:       49
+Requests/sec: 103.03
+Average:      474.103153ms
+p50:          137.720954ms
+p95:          799.71599ms
+p99:          10.030232076s
+Max:          10.088113149s
+
+---------- PHP ----------
+Requests:     3755
+Errors:       38
+Requests/sec: 122.99
+Average:      397.507717ms
+p50:          179.164477ms
+p95:          955.081457ms
+p99:          9.703082909s
+Max:          10.092983911s
+
+---------- CPP ----------
+Requests:     6671
+Errors:       0
+Requests/sec: 217.93
+Average:      225.217897ms
+p50:          166.786372ms
+p95:          619.321775ms
+p99:          1.076698177s
+Max:          2.833731605s
+
+---------- JAVA ----------
+Requests:     727
+Errors:       100
+Requests/sec: 24.02
+Average:      1.820588659s
+p50:          585.736767ms
+p95:          10.00885272s
+p99:          10.053905004s
+Max:          10.097563752s
+
+---------- ELIXIR ----------
+Requests:     4477
+Errors:       0
+Requests/sec: 147.87
+Average:      335.393492ms
+p50:          244.050187ms
+p95:          877.070414ms
+p99:          2.334050422s
+Max:          3.737304913s
+
+---------- RUBY ----------
+Requests:     350
+Errors:       69
+Requests/sec: 11.38
+Average:      3.649451867s
+p50:          2.077141705s
+p95:          10.006657173s
+p99:          10.177321085s
+Max:          10.182510952s
+
+---------- HASKELL ----------
+Requests:     12186
+Errors:       0
+Requests/sec: 402.88
+Average:      122.445672ms
+p50:          66.118911ms
+p95:          423.204091ms
+p99:          864.017594ms
+Max:          3.61749497s
+
+---------- V ----------
+Requests:     3735
+Errors:       0
+Requests/sec: 121.63
+Average:      405.424698ms
+p50:          267.936311ms
+p95:          1.219063312s
+p99:          2.109123107s
+Max:          3.004715082s
+
+---------- NIM ----------
+Requests:     9157
+Errors:       15
+Requests/sec: 303.35
+Average:      163.251353ms
+p50:          66.62853ms
+p95:          396.779257ms
+p99:          1.275730622s
+Max:          10.017109579s
+
+---------- ZIG ----------
+Requests:     13572
+Errors:       0
+Requests/sec: 451.27
+Average:      110.037408ms
+p50:          50.180491ms
+p95:          405.631851ms
+p99:          901.671983ms
+Max:          3.412978366s
+
+PostgreSQL connections before: 266
+PostgreSQL connections after:  651
+
+
+Cooling down for 15 seconds...
+
+==========================================================
+13-WAY OFFICIAL CONTENTION
+CONCURRENCY PER LANGUAGE: 100
+TOTAL HTTP CLIENTS: 1300
+==========================================================
+
+Restarting all 13 API containers...
+Waiting 15 seconds for applications to initialize...
+Recording PostgreSQL connections before test...
+Starting all 13 benchmark runners...
+
+All runners completed.
+
+---------- RESULTS: C=100 ----------
+
+---------- GO ----------
+Requests:     20734
+Errors:       27
+Requests/sec: 665.08
+Average:      144.012009ms
+p50:          80.003348ms
+p95:          387.350581ms
+p99:          847.107481ms
+Max:          10.104496858s
+
+---------- RUST ----------
+Requests:     13416
+Errors:       0
+Requests/sec: 434.27
+Average:      223.972045ms
+p50:          156.569828ms
+p95:          621.812217ms
+p99:          1.263322694s
+Max:          4.574010978s
+
+---------- NODE ----------
+Requests:     5695
+Errors:       44
+Requests/sec: 169.82
+Average:      533.402611ms
+p50:          316.226731ms
+p95:          1.136363765s
+p99:          7.103641054s
+Max:          10.047819145s
+
+---------- PYTHON ----------
+Requests:     3317
+Errors:       45
+Requests/sec: 109.81
+Average:      895.070909ms
+p50:          341.742881ms
+p95:          3.102973676s
+p99:          10.001894829s
+Max:          10.094285135s
+
+---------- PHP ----------
+Requests:     1864
+Errors:       44
+Requests/sec: 60.19
+Average:      1.597727365s
+p50:          1.336740608s
+p95:          2.644154845s
+p99:          10.00361438s
+Max:          10.048658489s
+
+---------- CPP ----------
+Requests:     8872
+Errors:       0
+Requests/sec: 292.82
+Average:      338.427819ms
+p50:          290.05158ms
+p95:          710.374234ms
+p99:          1.162992742s
+Max:          4.892951435s
+
+---------- JAVA ----------
+Requests:     266
+Errors:       200
+Requests/sec: 8.49
+Average:      6.55635667s
+p50:          9.132353687s
+p95:          10.02401603s
+p99:          10.162928012s
+Max:          10.164769998s
+
+---------- ELIXIR ----------
+Requests:     6389
+Errors:       0
+Requests/sec: 207.45
+Average:      473.413958ms
+p50:          368.333412ms
+p95:          1.030590107s
+p99:          3.085869978s
+Max:          4.971089575s
+
+---------- RUBY ----------
+Requests:     587
+Errors:       88
+Requests/sec: 18.03
+Average:      4.728315769s
+p50:          3.991164482s
+p95:          10.083125342s
+p99:          10.11320448s
+Max:          10.115802945s
+
+---------- HASKELL ----------
+Requests:     13880
+Errors:       0
+Requests/sec: 432.44
+Average:      217.43366ms
+p50:          162.741146ms
+p95:          552.654191ms
+p99:          967.951823ms
+Max:          3.633643933s
+
+---------- V ----------
+Requests:     4147
+Errors:       0
+Requests/sec: 132.67
+Average:      729.939849ms
+p50:          532.899264ms
+p95:          1.989928567s
+p99:          3.246315238s
+Max:          5.967691257s
+
+---------- NIM ----------
+Requests:     23390
+Errors:       0
+Requests/sec: 768.81
+Average:      128.350813ms
+p50:          81.324411ms
+p95:          346.784151ms
+p99:          924.202168ms
+Max:          6.021833215s
+
+---------- ZIG ----------
+Requests:     17974
+Errors:       0
+Requests/sec: 595.35
+Average:      166.912107ms
+p50:          107.399863ms
+p95:          489.038287ms
+p99:          1.028695145s
+Max:          3.449120773s
+
+PostgreSQL connections before: 266
+PostgreSQL connections after:  652
+
+
+Cooling down for 15 seconds...
+
+==========================================================
+13-WAY OFFICIAL CONTENTION
+CONCURRENCY PER LANGUAGE: 250
+TOTAL HTTP CLIENTS: 3250
+==========================================================
+
+Restarting all 13 API containers...
+Waiting 15 seconds for applications to initialize...
+Recording PostgreSQL connections before test...
+Starting all 13 benchmark runners...
+
+All runners completed.
+
+---------- RESULTS: C=250 ----------
+
+---------- GO ----------
+Requests:     18784
+Errors:       35
+Requests/sec: 567.04
+Average:      403.334362ms
+p50:          276.732005ms
+p95:          1.049160433s
+p99:          1.566077875s
+Max:          10.16406996s
+
+---------- RUST ----------
+Requests:     10453
+Errors:       35
+Requests/sec: 283.84
+Average:      739.18947ms
+p50:          565.853308ms
+p95:          1.465768718s
+p99:          3.969447034s
+Max:          10.157045844s
+
+---------- NODE ----------
+Requests:     37
+Errors:       750
+Requests/sec: 1.04
+Average:      9.903797414s
+p50:          10.042503134s
+p95:          10.558230423s
+p99:          10.621319074s
+Max:          10.633313481s
+
+---------- PYTHON ----------
+Requests:     4677
+Errors:       17
+Requests/sec: 145.14
+Average:      1.618651142s
+p50:          1.09425586s
+p95:          5.046059825s
+p99:          6.427299224s
+Max:          10.037638375s
+
+---------- PHP ----------
+Requests:     489
+Errors:       489
+Requests/sec: 14.10
+Average:      8.33143732s
+p50:          10.000110489s
+p95:          10.299655653s
+p99:          10.448789619s
+Max:          10.522321118s
+
+---------- CPP ----------
+Requests:     8488
+Errors:       0
+Requests/sec: 254.73
+Average:      933.868431ms
+p50:          857.238032ms
+p95:          1.787188938s
+p99:          2.605821598s
+Max:          5.11769194s
+
+---------- JAVA ----------
+Requests:     22
+Errors:       750
+Requests/sec: 0.59
+Average:      10.001914434s
+p50:          10.046226189s
+p95:          10.264418985s
+p99:          10.269318937s
+Max:          10.310905701s
+
+---------- ELIXIR ----------
+Requests:     6187
+Errors:       0
+Requests/sec: 183.48
+Average:      1.287670883s
+p50:          1.104300124s
+p95:          3.37875591s
+p99:          5.133681458s
+Max:          8.399435897s
+
+---------- RUBY ----------
+Requests:     309
+Errors:       687
+Requests/sec: 8.15
+Average:      7.666577531s
+p50:          10.004518911s
+p95:          10.584868572s
+p99:          10.58830925s
+Max:          10.590369158s
+
+---------- HASKELL ----------
+Requests:     5314
+Errors:       0
+Requests/sec: 155.22
+Average:      1.464350358s
+p50:          1.313270247s
+p95:          2.871109504s
+p99:          3.205427981s
+Max:          4.974863174s
+
+---------- V ----------
+Requests:     3812
+Errors:       0
+Requests/sec: 112.62
+Average:      2.083331223s
+p50:          1.885373127s
+p95:          4.326756588s
+p99:          5.904548409s
+Max:          7.770718308s
+
+---------- NIM ----------
+Requests:     28144
+Errors:       0
+Requests/sec: 872.16
+Average:      261.335531ms
+p50:          214.142037ms
+p95:          574.041128ms
+p99:          1.091215909s
+Max:          3.875825986s
+
+---------- ZIG ----------
+Requests:     17929
+Errors:       0
+Requests/sec: 564.79
+Average:      418.892551ms
+p50:          374.824048ms
+p95:          836.937781ms
+p99:          1.436348846s
+Max:          3.676862219s
+
+PostgreSQL connections before: 266
+PostgreSQL connections after:  648
+
+
+Cooling down for 15 seconds...
+
+==========================================================
+13-WAY OFFICIAL CONTENTION
+CONCURRENCY PER LANGUAGE: 500
+TOTAL HTTP CLIENTS: 6500
+==========================================================
+
+Restarting all 13 API containers...
+Waiting 15 seconds for applications to initialize...
+Recording PostgreSQL connections before test...
+Starting all 13 benchmark runners...
+
+All runners completed.
+
+---------- RESULTS: C=500 ----------
+
+---------- GO ----------
+Requests:     32281
+Errors:       0
+Requests/sec: 1025.06
+Average:      464.675528ms
+p50:          404.548968ms
+p95:          903.259813ms
+p99:          1.662684161s
+Max:          3.021506082s
+
+---------- RUST ----------
+Requests:     71
+Errors:       1500
+Requests/sec: 1.90
+Average:      9.988822298s
+p50:          10.056009502s
+p95:          10.441023041s
+p99:          10.471403605s
+Max:          10.500752428s
+
+---------- NODE ----------
+Requests:     3358
+Errors:       909
+Requests/sec: 98.05
+Average:      3.642096506s
+p50:          1.73931596s
+p95:          10.154802977s
+p99:          10.272452831s
+Max:          10.289665522s
+
+---------- PYTHON ----------
+Requests:     3191
+Errors:       738
+Requests/sec: 99.71
+Average:      3.942457976s
+p50:          2.42117268s
+p95:          10.080015922s
+p99:          10.239830733s
+Max:          10.412481986s
+
+---------- PHP ----------
+Requests:     3935
+Errors:       38
+Requests/sec: 119.19
+Average:      3.952672153s
+p50:          3.527142834s
+p95:          7.385695876s
+p99:          9.076421398s
+Max:          10.101360039s
+
+---------- CPP ----------
+Requests:     8938
+Errors:       0
+Requests/sec: 286.08
+Average:      1.702120408s
+p50:          1.64598546s
+p95:          3.169398834s
+p99:          3.87300134s
+Max:          5.394921868s
+
+---------- JAVA ----------
+Requests:     208
+Errors:       1500
+Requests/sec: 5.24
+Average:      10.121201676s
+p50:          10.020656266s
+p95:          10.765861885s
+p99:          10.79047206s
+Max:          11.110537044s
+
+---------- ELIXIR ----------
+Requests:     7421
+Errors:       4041
+Requests/sec: 224.50
+Average:      1.976256161s
+p50:          978.72705ms
+p95:          10.005482719s
+p99:          10.516145071s
+Max:          10.783655975s
+
+---------- RUBY ----------
+Requests:     325
+Errors:       1416
+Requests/sec: 8.10
+Average:      9.236404199s
+p50:          10.020479167s
+p95:          10.149155421s
+p99:          10.837973016s
+Max:          10.895106767s
+
+---------- HASKELL ----------
+Requests:     7633
+Errors:       0
+Requests/sec: 234.10
+Average:      2.045523971s
+p50:          1.878065376s
+p95:          4.121827347s
+p99:          4.431627812s
+Max:          5.57174448s
+
+---------- V ----------
+Requests:     3751
+Errors:       14
+Requests/sec: 109.52
+Average:      4.224282858s
+p50:          3.882965805s
+p95:          7.605551599s
+p99:          8.505826604s
+Max:          10.238153472s
+
+---------- NIM ----------
+Requests:     14245
+Errors:       500
+Requests/sec: 461.77
+Average:      1.024535723s
+p50:          478.692713ms
+p95:          5.98584689s
+p99:          10.111894579s
+Max:          10.604831586s
+
+---------- ZIG ----------
+Requests:     20108
+Errors:       313
+Requests/sec: 600.23
+Average:      751.203165ms
+p50:          484.082074ms
+p95:          1.317287867s
+p99:          10.002150726s
+Max:          10.169108568s
+
+PostgreSQL connections before: 266
+PostgreSQL connections after:  643
+
+
+Cooling down for 15 seconds...
+
+==========================================================
+13-WAY OFFICIAL CONTENTION
+CONCURRENCY PER LANGUAGE: 1000
+TOTAL HTTP CLIENTS: 13000
+==========================================================
+
+Restarting all 13 API containers...
+Waiting 15 seconds for applications to initialize...
+Recording PostgreSQL connections before test...
+Starting all 13 benchmark runners...
+
+All runners completed.
+
+---------- RESULTS: C=1000 ----------
+
+---------- GO ----------
+Requests:     29609
+Errors:       0
+Requests/sec: 928.77
+Average:      1.028846652s
+p50:          857.723314ms
+p95:          1.934648671s
+p99:          4.289252959s
+Max:          7.704369316s
+
+---------- RUST ----------
+Requests:     13502
+Errors:       104
+Requests/sec: 414.88
+Average:      2.278178101s
+p50:          1.89817438s
+p95:          4.462621472s
+p99:          6.432281036s
+Max:          10.044815574s
+
+---------- NODE ----------
+Requests:     222
+Errors:       3000
+Requests/sec: 5.92
+Average:      9.948709183s
+p50:          10.055601584s
+p95:          10.680951469s
+p99:          10.878286351s
+Max:          10.951137687s
+
+---------- PYTHON ----------
+Requests:     808
+Errors:       13668
+Requests/sec: 19.86
+Average:      2.359096029s
+p50:          52.329211ms
+p95:          10.293462892s
+p99:          10.718355887s
+Max:          10.938899037s
+
+---------- PHP ----------
+Requests:     2785
+Errors:       1118
+Requests/sec: 79.93
+Average:      8.402044682s
+p50:          8.322418638s
+p95:          11.102220008s
+p99:          11.184123482s
+Max:          11.40378147s
+
+---------- CPP ----------
+Requests:     10665
+Errors:       0
+Requests/sec: 296.42
+Average:      3.124031913s
+p50:          2.954129312s
+p95:          4.888504862s
+p99:          5.545579021s
+Max:          7.538034725s
+
+---------- JAVA ----------
+Requests:     334
+Errors:       3368
+Requests/sec: 8.22
+Average:      10.076938833s
+p50:          10.013679098s
+p95:          10.406765672s
+p99:          10.842788642s
+Max:          11.268178787s
+
+---------- ELIXIR ----------
+Requests:     408
+Errors:       3178
+Requests/sec: 11.34
+Average:      9.401926363s
+p50:          10.016289161s
+p95:          10.519361028s
+p99:          10.792207929s
+Max:          11.007340584s
+
+---------- RUBY ----------
+Requests:     526
+Errors:       3028
+Requests/sec: 12.97
+Average:      9.398960295s
+p50:          10.011482954s
+p95:          10.739063114s
+p99:          11.08384055s
+Max:          11.113298274s
+
+---------- HASKELL ----------
+Requests:     7648
+Errors:       177
+Requests/sec: 190.03
+Average:      4.082380663s
+p50:          3.560228187s
+p95:          7.246188213s
+p99:          10.01356928s
+Max:          10.291169163s
+
+---------- V ----------
+Requests:     4398
+Errors:       1022
+Requests/sec: 107.95
+Average:      6.030137532s
+p50:          5.359733555s
+p95:          10.124877139s
+p99:          10.295001365s
+Max:          10.526516077s
+
+---------- NIM ----------
+Requests:     0
+Errors:       95956
+Requests/sec: 0.00
+Average:      316.908809ms
+p50:          146.827092ms
+p95:          572.507313ms
+p99:          10.000917368s
+Max:          10.369722656s
+
+---------- ZIG ----------
+Requests:     17981
+Errors:       862
+Requests/sec: 532.90
+Average:      1.633409495s
+p50:          1.067920563s
+p95:          7.11137634s
+p99:          10.015643654s
+Max:          10.831373742s
+
+PostgreSQL connections before: 266
+PostgreSQL connections after:  595
+
+
+Cooling down for 15 seconds...
+
+==========================================================
+13-WAY CONTENTION SWEEP COMPLETE
+Results saved under:
+benchmark/results/contention_13_official
+==========================================================

@@ -1,0 +1,147 @@
+
+========================================
+HASKELL OFFICIAL - CONCURRENCY 1
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.005s
+Requests:     6388
+Errors:       0
+Requests/sec: 212.90
+
+Average:      4.589393ms
+p50:          2.755922ms
+p95:          13.556149ms
+p99:          21.526747ms
+Max:          50.722138ms
+========================================
+
+========================================
+HASKELL OFFICIAL - CONCURRENCY 10
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.011s
+Requests:     47713
+Errors:       0
+Requests/sec: 1589.86
+
+Average:      6.218861ms
+p50:          4.013204ms
+p95:          18.34082ms
+p99:          32.516492ms
+Max:          100.007762ms
+========================================
+
+========================================
+HASKELL OFFICIAL - CONCURRENCY 50
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.089s
+Requests:     24818
+Errors:       0
+Requests/sec: 824.81
+
+Average:      60.427774ms
+p50:          55.902374ms
+p95:          115.859036ms
+p99:          157.592454ms
+Max:          277.012739ms
+========================================
+
+========================================
+HASKELL OFFICIAL - CONCURRENCY 100
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.085s
+Requests:     23972
+Errors:       0
+Requests/sec: 796.80
+
+Average:      125.2216ms
+p50:          127.376013ms
+p95:          224.062339ms
+p99:          254.701603ms
+Max:          384.697683ms
+========================================
+
+========================================
+HASKELL OFFICIAL - CONCURRENCY 250
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.314s
+Requests:     21447
+Errors:       0
+Requests/sec: 707.49
+
+Average:      351.388446ms
+p50:          353.945342ms
+p95:          525.397272ms
+p99:          597.226007ms
+Max:          732.395099ms
+========================================
+
+========================================
+HASKELL OFFICIAL - CONCURRENCY 500
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_postgres:8080/parent/50000
+Concurrency:  500
+Duration:     30.662s
+Requests:     22309
+Errors:       0
+Requests/sec: 727.59
+
+Average:      679.007417ms
+p50:          678.894404ms
+p95:          946.920459ms
+p99:          1.004536061s
+Max:          1.072408675s
+========================================
+
+========================================
+HASKELL OFFICIAL - CONCURRENCY 1000
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_haskell_postgres:8080/parent/50000
+Concurrency:  1000
+Duration:     30.991s
+Requests:     23182
+Errors:       318
+Requests/sec: 748.01
+
+Average:      1.29183167s
+p50:          1.17938743s
+p95:          1.486084266s
+p99:          10.000643799s
+Max:          10.184795168s
+========================================

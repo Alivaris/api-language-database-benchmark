@@ -1,0 +1,147 @@
+
+========================================
+PYTHON OFFICIAL - CONCURRENCY 1
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.026s
+Requests:     2705
+Errors:       0
+Requests/sec: 90.09
+
+Average:      10.839395ms
+p50:          8.690838ms
+p95:          24.91269ms
+p99:          38.215081ms
+Max:          103.630067ms
+========================================
+
+========================================
+PYTHON OFFICIAL - CONCURRENCY 10
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.094s
+Requests:     5325
+Errors:       0
+Requests/sec: 176.95
+
+Average:      56.301691ms
+p50:          47.650011ms
+p95:          130.663942ms
+p99:          170.100627ms
+Max:          220.311977ms
+========================================
+
+========================================
+PYTHON OFFICIAL - CONCURRENCY 50
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.199s
+Requests:     7760
+Errors:       0
+Requests/sec: 256.96
+
+Average:      194.093056ms
+p50:          157.937559ms
+p95:          444.436072ms
+p99:          577.232676ms
+Max:          919.916273ms
+========================================
+
+========================================
+PYTHON OFFICIAL - CONCURRENCY 100
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.169s
+Requests:     12670
+Errors:       0
+Requests/sec: 419.97
+
+Average:      237.496754ms
+p50:          172.503875ms
+p95:          575.103074ms
+p99:          910.756926ms
+Max:          2.403265796s
+========================================
+
+========================================
+PYTHON OFFICIAL - CONCURRENCY 250
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.419s
+Requests:     10569
+Errors:       0
+Requests/sec: 347.44
+
+Average:      715.541226ms
+p50:          407.310262ms
+p95:          2.222443189s
+p99:          4.402704733s
+Max:          8.324963866s
+========================================
+
+========================================
+PYTHON OFFICIAL - CONCURRENCY 500
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  500
+Duration:     32.533s
+Requests:     9916
+Errors:       323
+Requests/sec: 304.80
+
+Average:      1.537305841s
+p50:          559.073777ms
+p95:          6.960867051s
+p99:          10.05189418s
+Max:          10.180172808s
+========================================
+
+========================================
+PYTHON OFFICIAL - CONCURRENCY 1000
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_python_postgres:8080/parent/50000
+Concurrency:  1000
+Duration:     34.009s
+Requests:     11927
+Errors:       1396
+Requests/sec: 350.70
+
+Average:      2.313040587s
+p50:          806.711575ms
+p95:          10.004797031s
+p99:          10.059682829s
+Max:          10.155762838s
+========================================

@@ -1,0 +1,90 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Go
+vendor/
+*.test
+
+# Rust
+target/
+
+# Java / Maven / Gradle
+**/target/
+.gradle/
+**/build/
+
+# Elixir
+deps/
+_build/
+
+# Ruby
+.bundle/
+vendor/bundle/
+
+# Haskell
+.stack-work/
+dist-newstyle/
+
+# Zig
+.zig-cache/
+zig-cache/
+zig-out/
+zig-pkg/
+
+# Nim
+nimcache/
+.nimble/
+
+# V
+.vmodules/
+
+# C / C++
+*.o
+*.a
+*.so
+*.out
+CMakeFiles/
+CMakeCache.txt
+
+# Generated executables
+*.exe
+*.dll
+
+# Temporary benchmark junk
+*.tmp
+*.pid
+
+# Zig downloaded package cache
+api/zig/.cache/
+
+# Generated Cassandra benchmark dataset
+database/cassandra/data/
+
+# Zig downloaded package cache
+api/zig/.cache/

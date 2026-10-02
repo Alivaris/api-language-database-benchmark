@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.191s
+Requests:     17974
+Errors:       0
+Requests/sec: 595.35
+
+Average:      166.912107ms
+p50:          107.399863ms
+p95:          489.038287ms
+p99:          1.028695145s
+Max:          3.449120773s
+========================================

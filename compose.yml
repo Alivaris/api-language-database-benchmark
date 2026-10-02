@@ -1,0 +1,149 @@
+services:
+
+  postgres:
+    image: postgres:17
+    container_name: benchmark_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: benchmark
+      POSTGRES_USER: benchmark
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/postgres/01-init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    ports:
+      - "127.0.0.1:15432:5432"
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 8G
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U benchmark -d benchmark"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    networks:
+      - benchmark
+
+  mariadb:
+    image: mariadb:11.8
+    container_name: benchmark_mariadb
+    restart: unless-stopped
+    command:
+      - --max-recursive-iterations=1000000
+    environment:
+      MARIADB_DATABASE: benchmark
+      MARIADB_USER: benchmark
+      MARIADB_PASSWORD: ${MARIADB_PASSWORD}
+      MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./database/mariadb/01-init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    ports:
+      - "127.0.0.1:13306:3306"
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 8G
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    networks:
+      - benchmark
+
+  cockroach:
+    image: cockroachdb/cockroach:v25.3.3
+    container_name: benchmark_cockroach
+    hostname: benchmark_cockroach
+    restart: unless-stopped
+    command:
+      - start
+      - --insecure
+      - --store=/cockroach/cockroach-data
+      - --listen-addr=0.0.0.0:26257
+      - --advertise-addr=benchmark_cockroach:26257
+      - --http-addr=0.0.0.0:8080
+      - --join=benchmark_cockroach:26257
+    volumes:
+      - cockroach_data:/cockroach/cockroach-data
+    ports:
+      - "127.0.0.1:26257:26257"
+      - "127.0.0.1:18080:8080"
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 8G
+    healthcheck:
+      test: ["CMD", "cockroach", "node", "status", "--insecure", "--host=localhost:26257"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+    networks:
+      - benchmark
+
+  cockroach-init:
+    image: cockroachdb/cockroach:v25.3.3
+    container_name: benchmark_cockroach_init
+    depends_on:
+      cockroach:
+        condition: service_healthy
+    volumes:
+      - ./database/cockroach/01-init.sql:/init/01-init.sql:ro
+    entrypoint:
+      - /bin/sh
+      - -c
+      - >
+        cockroach sql
+        --insecure
+        --host=benchmark_cockroach:26257
+        --file=/init/01-init.sql
+    networks:
+      - benchmark
+    restart: "no"
+
+
+  cassandra:
+    image: cassandra:5.0
+    container_name: benchmark_cassandra
+    hostname: benchmark_cassandra
+    restart: unless-stopped
+    environment:
+      CASSANDRA_CLUSTER_NAME: benchmark_cluster
+      CASSANDRA_DC: datacenter1
+      CASSANDRA_RACK: rack1
+      CASSANDRA_ENDPOINT_SNITCH: GossipingPropertyFileSnitch
+      MAX_HEAP_SIZE: 4G
+      HEAP_NEWSIZE: 800M
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+    ports:
+      - "127.0.0.1:19042:9042"
+    deploy:
+      resources:
+        limits:
+          cpus: "4"
+          memory: 8G
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'SELECT release_version FROM system.local' localhost 9042"]
+      interval: 10s
+      timeout: 10s
+      retries: 30
+      start_period: 60s
+    networks:
+      - benchmark
+
+
+networks:
+  benchmark:
+    name: api_benchmark_network
+
+volumes:
+  postgres_data:
+  mariadb_data:
+  cockroach_data:
+  cassandra_data:

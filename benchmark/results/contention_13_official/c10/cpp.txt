@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_cpp_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.234s
+Requests:     4302
+Errors:       0
+Requests/sec: 142.29
+
+Average:      69.648109ms
+p50:          56.755114ms
+p95:          169.808393ms
+p99:          248.053404ms
+Max:          536.190195ms
+========================================

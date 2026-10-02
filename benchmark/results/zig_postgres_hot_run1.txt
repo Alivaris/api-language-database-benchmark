@@ -1,0 +1,147 @@
+
+========================================
+ZIG OFFICIAL - CONCURRENCY 1
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.013s
+Requests:     5851
+Errors:       0
+Requests/sec: 194.95
+
+Average:      4.975337ms
+p50:          3.425952ms
+p95:          14.171409ms
+p99:          22.510841ms
+Max:          60.160812ms
+========================================
+
+========================================
+ZIG OFFICIAL - CONCURRENCY 10
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.056s
+Requests:     27429
+Errors:       0
+Requests/sec: 912.59
+
+Average:      10.770677ms
+p50:          7.495332ms
+p95:          30.96985ms
+p99:          49.224039ms
+Max:          175.53748ms
+========================================
+
+========================================
+ZIG OFFICIAL - CONCURRENCY 50
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.052s
+Requests:     55291
+Errors:       0
+Requests/sec: 1839.85
+
+Average:      26.489714ms
+p50:          19.212786ms
+p95:          74.121942ms
+p99:          107.447051ms
+Max:          219.598257ms
+========================================
+
+========================================
+ZIG OFFICIAL - CONCURRENCY 100
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.163s
+Requests:     67697
+Errors:       0
+Requests/sec: 2244.38
+
+Average:      42.891472ms
+p50:          33.544388ms
+p95:          108.548067ms
+p99:          159.285649ms
+Max:          358.912933ms
+========================================
+
+========================================
+ZIG OFFICIAL - CONCURRENCY 250
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.307s
+Requests:     71322
+Errors:       0
+Requests/sec: 2353.35
+
+Average:      101.53364ms
+p50:          89.252818ms
+p95:          208.295816ms
+p99:          334.744789ms
+Max:          1.724623744s
+========================================
+
+========================================
+ZIG OFFICIAL - CONCURRENCY 500
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_postgres:8080/parent/50000
+Concurrency:  500
+Duration:     30.332s
+Requests:     77507
+Errors:       0
+Requests/sec: 2555.25
+
+Average:      190.402783ms
+p50:          171.822728ms
+p95:          342.167569ms
+p99:          546.96441ms
+Max:          4.960156372s
+========================================
+
+========================================
+ZIG OFFICIAL - CONCURRENCY 1000
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_zig_postgres:8080/parent/50000
+Concurrency:  1000
+Duration:     32.8s
+Requests:     78641
+Errors:       282
+Requests/sec: 2397.58
+
+Average:      379.011356ms
+p50:          305.833428ms
+p95:          544.246536ms
+p99:          985.866364ms
+Max:          10.648171964s
+========================================

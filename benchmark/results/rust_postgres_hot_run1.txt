@@ -1,0 +1,147 @@
+
+========================================
+RUST OFFICIAL - CONCURRENCY 1
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.01s
+Requests:     6141
+Errors:       0
+Requests/sec: 204.63
+
+Average:      4.785277ms
+p50:          2.676343ms
+p95:          14.692274ms
+p99:          21.966273ms
+Max:          96.440997ms
+========================================
+
+========================================
+RUST OFFICIAL - CONCURRENCY 10
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.025s
+Requests:     24461
+Errors:       0
+Requests/sec: 814.69
+
+Average:      12.175573ms
+p50:          9.02576ms
+p95:          31.071183ms
+p99:          50.526031ms
+Max:          549.949505ms
+========================================
+
+========================================
+RUST OFFICIAL - CONCURRENCY 50
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.095s
+Requests:     54756
+Errors:       0
+Requests/sec: 1819.43
+
+Average:      27.19446ms
+p50:          22.103334ms
+p95:          68.420013ms
+p99:          100.192745ms
+Max:          277.626288ms
+========================================
+
+========================================
+RUST OFFICIAL - CONCURRENCY 100
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.047s
+Requests:     53610
+Errors:       0
+Requests/sec: 1784.20
+
+Average:      55.285379ms
+p50:          47.480494ms
+p95:          125.40221ms
+p99:          176.159206ms
+Max:          308.397073ms
+========================================
+
+========================================
+RUST OFFICIAL - CONCURRENCY 250
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.137s
+Requests:     69161
+Errors:       0
+Requests/sec: 2294.88
+
+Average:      107.215664ms
+p50:          97.661852ms
+p95:          203.808347ms
+p99:          271.280661ms
+Max:          446.380513ms
+========================================
+
+========================================
+RUST OFFICIAL - CONCURRENCY 500
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  500
+Duration:     30.26s
+Requests:     65723
+Errors:       0
+Requests/sec: 2171.94
+
+Average:      227.556618ms
+p50:          208.477917ms
+p95:          402.942512ms
+p99:          726.242259ms
+Max:          1.494474118s
+========================================
+
+========================================
+RUST OFFICIAL - CONCURRENCY 1000
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  1000
+Duration:     31.433s
+Requests:     57015
+Errors:       146
+Requests/sec: 1813.86
+
+Average:      527.865808ms
+p50:          465.793226ms
+p95:          849.786786ms
+p99:          1.357844728s
+Max:          10.053501277s
+========================================

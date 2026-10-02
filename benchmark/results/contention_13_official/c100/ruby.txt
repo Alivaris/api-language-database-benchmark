@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_ruby_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     32.555s
+Requests:     587
+Errors:       88
+Requests/sec: 18.03
+
+Average:      4.728315769s
+p50:          3.991164482s
+p95:          10.083125342s
+p99:          10.11320448s
+Max:          10.115802945s
+========================================

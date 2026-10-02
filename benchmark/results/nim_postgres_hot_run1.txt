@@ -1,0 +1,147 @@
+
+========================================
+NIM OFFICIAL - CONCURRENCY 1
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.023s
+Requests:     9991
+Errors:       0
+Requests/sec: 332.78
+
+Average:      2.919221ms
+p50:          1.754012ms
+p95:          8.686153ms
+p99:          15.346677ms
+Max:          38.613894ms
+========================================
+
+========================================
+NIM OFFICIAL - CONCURRENCY 10
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.009s
+Requests:     62202
+Errors:       0
+Requests/sec: 2072.76
+
+Average:      4.759282ms
+p50:          3.048079ms
+p95:          14.180621ms
+p99:          24.606466ms
+Max:          74.874279ms
+========================================
+
+========================================
+NIM OFFICIAL - CONCURRENCY 50
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.071s
+Requests:     91753
+Errors:       0
+Requests/sec: 3051.21
+
+Average:      16.049382ms
+p50:          12.97164ms
+p95:          38.306887ms
+p99:          62.22273ms
+Max:          136.791768ms
+========================================
+
+========================================
+NIM OFFICIAL - CONCURRENCY 100
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.079s
+Requests:     92285
+Errors:       0
+Requests/sec: 3068.13
+
+Average:      31.949515ms
+p50:          26.516747ms
+p95:          69.968451ms
+p99:          119.573484ms
+Max:          441.853235ms
+========================================
+
+========================================
+NIM OFFICIAL - CONCURRENCY 250
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.083s
+Requests:     94326
+Errors:       0
+Requests/sec: 3135.57
+
+Average:      77.962306ms
+p50:          64.594805ms
+p95:          180.530499ms
+p99:          276.75574ms
+Max:          529.936788ms
+========================================
+
+========================================
+NIM OFFICIAL - CONCURRENCY 500
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_postgres:8080/parent/50000
+Concurrency:  500
+Duration:     30.173s
+Requests:     131566
+Errors:       0
+Requests/sec: 4360.45
+
+Average:      112.17176ms
+p50:          94.978376ms
+p95:          241.011306ms
+p99:          362.835426ms
+Max:          1.989234587s
+========================================
+
+========================================
+NIM OFFICIAL - CONCURRENCY 1000
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_nim_postgres:8080/parent/50000
+Concurrency:  1000
+Duration:     30.085s
+Requests:     16389
+Errors:       472086
+Requests/sec: 544.75
+
+Average:      61.330361ms
+p50:          28.236532ms
+p95:          109.802207ms
+p99:          203.846493ms
+Max:          10.099799507s
+========================================

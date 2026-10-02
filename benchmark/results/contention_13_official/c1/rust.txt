@@ -1,0 +1,17 @@
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_rust_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.077s
+Requests:     2579
+Errors:       0
+Requests/sec: 85.75
+
+Average:      11.523513ms
+p50:          7.43406ms
+p95:          34.154402ms
+p99:          55.571876ms
+Max:          418.72871ms
+========================================

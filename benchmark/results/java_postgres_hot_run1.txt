@@ -1,0 +1,147 @@
+
+========================================
+JAVA OFFICIAL - CONCURRENCY 1
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.013s
+Requests:     8324
+Errors:       0
+Requests/sec: 277.35
+
+Average:      3.47094ms
+p50:          1.934508ms
+p95:          11.656045ms
+p99:          18.889777ms
+Max:          57.42552ms
+========================================
+
+========================================
+JAVA OFFICIAL - CONCURRENCY 10
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.043s
+Requests:     16425
+Errors:       0
+Requests/sec: 546.72
+
+Average:      18.194522ms
+p50:          12.090815ms
+p95:          54.484503ms
+p99:          86.116861ms
+Max:          149.538386ms
+========================================
+
+========================================
+JAVA OFFICIAL - CONCURRENCY 50
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.075s
+Requests:     29438
+Errors:       0
+Requests/sec: 978.81
+
+Average:      50.81425ms
+p50:          39.074555ms
+p95:          139.906725ms
+p99:          218.228363ms
+Max:          339.12941ms
+========================================
+
+========================================
+JAVA OFFICIAL - CONCURRENCY 100
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.127s
+Requests:     49890
+Errors:       0
+Requests/sec: 1655.98
+
+Average:      59.857856ms
+p50:          42.856975ms
+p95:          168.258613ms
+p99:          250.655836ms
+Max:          555.39682ms
+========================================
+
+========================================
+JAVA OFFICIAL - CONCURRENCY 250
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.277s
+Requests:     33260
+Errors:       0
+Requests/sec: 1098.52
+
+Average:      225.489673ms
+p50:          176.759025ms
+p95:          604.922019ms
+p99:          723.563851ms
+Max:          1.025730399s
+========================================
+
+========================================
+JAVA OFFICIAL - CONCURRENCY 500
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_postgres:8080/parent/50000
+Concurrency:  500
+Duration:     30.479s
+Requests:     48320
+Errors:       0
+Requests/sec: 1585.35
+
+Average:      312.416635ms
+p50:          230.95163ms
+p95:          906.275667ms
+p99:          1.10532244s
+Max:          1.265157637s
+========================================
+
+========================================
+JAVA OFFICIAL - CONCURRENCY 1000
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_java_postgres:8080/parent/50000
+Concurrency:  1000
+Duration:     31.626s
+Requests:     41266
+Errors:       0
+Requests/sec: 1304.80
+
+Average:      743.756612ms
+p50:          716.812143ms
+p95:          1.30763483s
+p99:          1.592730656s
+Max:          1.798637832s
+========================================

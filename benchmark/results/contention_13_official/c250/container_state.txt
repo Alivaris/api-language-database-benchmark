@@ -1,0 +1,15 @@
+CONTAINER STATE AFTER C=250
+
+/benchmark_go_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_rust_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_node_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_python_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_php_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_cpp_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_java_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_elixir_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_ruby_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_haskell_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_v_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_nim_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0
+/benchmark_zig_postgres Status=running ExitCode=0 OOMKilled=false RestartCount=0

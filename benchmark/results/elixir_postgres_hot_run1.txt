@@ -1,0 +1,147 @@
+
+========================================
+ELIXIR OFFICIAL - CONCURRENCY 1
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  1
+Duration:     30.017s
+Requests:     3414
+Errors:       0
+Requests/sec: 113.73
+
+Average:      8.460907ms
+p50:          6.019718ms
+p95:          22.330851ms
+p99:          35.637755ms
+Max:          61.778752ms
+========================================
+
+========================================
+ELIXIR OFFICIAL - CONCURRENCY 10
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  10
+Duration:     30.039s
+Requests:     11258
+Errors:       0
+Requests/sec: 374.78
+
+Average:      26.314769ms
+p50:          20.557254ms
+p95:          64.731591ms
+p99:          118.070037ms
+Max:          380.337132ms
+========================================
+
+========================================
+ELIXIR OFFICIAL - CONCURRENCY 50
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  50
+Duration:     30.121s
+Requests:     17073
+Errors:       0
+Requests/sec: 566.82
+
+Average:      87.268921ms
+p50:          73.366372ms
+p95:          191.632096ms
+p99:          323.107527ms
+Max:          821.308484ms
+========================================
+
+========================================
+ELIXIR OFFICIAL - CONCURRENCY 100
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  100
+Duration:     30.213s
+Requests:     16268
+Errors:       0
+Requests/sec: 538.45
+
+Average:      184.45219ms
+p50:          167.40852ms
+p95:          371.820042ms
+p99:          500.357345ms
+Max:          1.043362238s
+========================================
+
+========================================
+ELIXIR OFFICIAL - CONCURRENCY 250
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  250
+Duration:     30.271s
+Requests:     20329
+Errors:       2021
+Requests/sec: 671.57
+
+Average:      370.094486ms
+p50:          135.890846ms
+p95:          2.463040996s
+p99:          4.101866786s
+Max:          5.127649497s
+========================================
+
+========================================
+ELIXIR OFFICIAL - CONCURRENCY 500
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  500
+Duration:     30.264s
+Requests:     33118
+Errors:       13534
+Requests/sec: 1094.29
+
+Average:      453.279779ms
+p50:          263.438772ms
+p95:          822.301524ms
+p99:          5.392441974s
+Max:          5.755782233s
+========================================
+
+========================================
+ELIXIR OFFICIAL - CONCURRENCY 1000
+========================================
+
+========================================
+API BENCHMARK RESULTS
+========================================
+URL:          http://benchmark_elixir_postgres:8080/parent/50000
+Concurrency:  1000
+Duration:     34.12s
+Requests:     46189
+Errors:       35132
+Requests/sec: 1353.72
+
+Average:      654.463706ms
+p50:          489.657917ms
+p95:          1.587184914s
+p99:          2.220111935s
+Max:          10.150664713s
+========================================
