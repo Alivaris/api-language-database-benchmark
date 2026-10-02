@@ -328,6 +328,37 @@ This illustrates why container status alone is not sufficient evidence that an a
 
 The project follows several rules.
 
+## There Is No Universal Best Language or Database
+
+This project is not intended to prove that one programming language or database is universally better than another.
+
+We believe every language and database included in this project has a place.
+
+A technology that performs exceptionally well in one workload may be a poor fit for another. Performance is only one consideration among many, including:
+
+- development speed
+- ecosystem maturity
+- maintainability
+- concurrency model
+- memory usage
+- deployment requirements
+- reliability
+- failure behavior
+- developer familiarity
+- available libraries
+- database semantics
+- operational complexity
+- scalability needs
+
+The benchmark should therefore be viewed as a **gauge**, not a universal ranking.
+
+Its purpose is to provide measurable information that can help developers decide which tradeoffs matter for their own project.
+
+A language that produces fewer requests per second may still be the better engineering choice for a particular application. Likewise, a database that is slower in one benchmark may provide features, consistency guarantees, operational characteristics, or data models that make it the right choice elsewhere.
+
+The raw results are provided so readers can make their own judgments based on their needs.
+
+
 ## Do Not Hide Failures
 
 Crashes, timeout walls, configuration problems, dependency problems, and unexpected results are part of the benchmark.
@@ -450,7 +481,9 @@ They are not production credentials and should never be copied into a real produ
 
 # Companion Book
 
-A companion book is being written alongside this repository.
+A companion book, and potentially additional books expanding on this benchmark project, are being written alongside this repository.
+
+**Novel Notes Press LLC has committed to publishing the books that accompany this repository.**
 
 The goal of the book is not simply to publish a table of benchmark numbers.
 
